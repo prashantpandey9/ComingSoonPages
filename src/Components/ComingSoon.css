@@ -1,0 +1,57 @@
+.main{
+    min-height: 741px;
+}
+.heading{
+  padding-top: 50px;
+}
+h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 88px;
+  /* identical to box height */
+  color: #474747;
+}
+p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #474747;
+}
+
+@media(max-height: 425px){
+  .heading{
+    padding-top: 20px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+  }
+}
+.emailbar{
+  width: 635px;
+  height: 70px;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+span{
+  padding: 20px 0px 20px 20px;
+  width: 40px;
+  border: 1px solid #000;
+}
+.image{
+  padding: 20px;
+}
